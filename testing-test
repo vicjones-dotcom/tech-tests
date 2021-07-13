@@ -1,0 +1,19 @@
+Question - I'd like to learn more about your views on testing software:
+Why do we test our software as engineers:
+1.	Cost-effective -> Fixing bugs in the early phases saves money
+2.	Security – ensuring that the personal details of the user can be safe – well-tested = reliable!
+3.	Determining whether the actual software product meets the expected requirements and ensuring that the software product is free of defects.
+4.	The goal of software testing is to find errors, gaps, or missing requirements in comparison to the actual requirements (errors may appear at any phase of the life cycle).
+5.	Problems identified early and fixed before the software is delivered
+
+What best practices are there for testing software
+1. Carry Tests Throughout the Software Development Cycle
+Builds confidence amongst the team, catching bugs early
+2. Break Tests in Small Fractions
+Take smaller tests to save time and resources -> testing UI, functions individually.
+3. write tests for valid/expected and invalid/unexpected behaviours
+4. write tests before code to reduce biased tests
+
+Where you have applied those best practices
+1.	We have used both Jest for smaller fractions such as functions and Cypress for end-to-end testing, hence testing the software across different development stages for two projects during my course.
+2.	We have written tests for expected and unexpected behaviour 
