@@ -1,0 +1,36 @@
+What can be improved…
+/**** Widget Container ****/
+.widgetContainer {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 100px 100px 100px;
+
+  /**** Widget ****/
+  .widget {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    &__label {
+      height: 20px;
+    }
+  }
+  /**** Specialised Widget ****/
+  .special-widget {
+    background: grey;
+    grid-template-rows: 1fr;
+    &__content--red {
+      background: red;
+    }
+    &__special-widget {
+      border: 1px solid black;
+    }
+    &__special-widget--disabled {
+      opacity: 0.3;
+      pointer-events: none;
+    }
+    &:hover {
+      border-color: blue;
+    }
+  }
+}
