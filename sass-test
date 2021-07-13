@@ -1,6 +1,6 @@
 What can be improved…
 /**** Widget Container ****/
-.widgetContainer {
+.widget-container {
   display: grid;
   grid-template-rows: auto 1fr;
   grid-template-columns: 100px 100px 100px;
@@ -22,7 +22,7 @@ What can be improved…
     &__content--red {
       background: red;
     }
-    &__special-widget {
+    &__special--widget {
       border: 1px solid black;
     }
     &__special-widget--disabled {
